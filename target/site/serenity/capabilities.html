@@ -5,136 +5,124 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Requirements</title>
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 <!--[if IE 7]>
-<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
-<![endif]--><!-- JQuery -->
-<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
 <link rel="stylesheet" href="css/link.css"/>
 <link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
 <link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
 <script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
-<link type="text/css" href="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" rel="Stylesheet"/>
-<link type="text/css" href="css/tables.css" rel="stylesheet" />
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
 
-<script type="text/javascript" src="datatables/1.10.4/media/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js"></script><!-- jQplot -->
-<!--[if IE]>
-<script language="javascript" type="text/javascript" src="excanvas/3/excanvas.compiled.js"></script>
-<![endif]--><link rel="stylesheet" type="text/css" href="jqplot/1.0.8/jquery.jqplot.min.css"/>
-<script type="text/javascript" src="jqplot/1.0.8/jquery.jqplot.min.js"></script>
-<script type="text/javascript" src="jqplot/1.0.8/plugins/jqplot.pieRenderer.min.js"></script>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
 
 
 
-    <script class="code" type="text/javascript">$(document).ready(function () {
-        var plot1 = $.jqplot('coverage_pie_chart', [
-            [
-                ['Passing', 1],
-                ['Pending', 0],
-                ['Ignored', 0],
-                ['Failing', 0],
-                ['Errors',  0],
-                ['Compromised',  0],
-                ['Untested',  4],
-            ]
-        ], {
-            gridPadding: {top: 0, bottom: 38, left: 0, right: 0},
-            seriesColors: [
-                '#30cb23',
-                '#a2f2f2',
-                '#eeeadd',
-                '#f8001f',
-                '#fc6e1f',
-                'fuchsia',
-                'darkgrey'],
-            seriesDefaults: {
-                renderer: $.jqplot.PieRenderer,
-                trendline: {show: false},
-                rendererOptions: {padding: 8, showDataLabels: true}
-            },
-            legend: {
-                show: true,
-                placement: 'outside',
-                rendererOptions: {
-                    numberRows: 3
-                },
-                location: 's',
-                marginTop: '15px'
-            },
-            series: [
-                {label: '1 requirements tested successfully'},
-                {label: '0 requirements pending'},
-                {label: '0} requirements skipped'},
-                {label: '0} requirements with failures'},
-                {label: '0} requirements with errors'},
-                {label: '0} requirements compromised'},
-                {label: '4} requirements untested'},
-            ]
+    <script>
+
+        $(document).ready(function () {
+
+            var scenarioTable = $('.scenario-result-table').DataTable({
+
+                "order": [],
+                "language": {
+                    searchPlaceholder: "Filter",
+                    search: ""
+                }
+            });
+
+            $('.example-table table').DataTable({
+                searching: false,
+                ordering: false,
+                paging: false,
+                info: false
+            });
+
+            $('.example-table-in-scenario table').DataTable({
+                searching: false,
+                ordering: false,
+                paging: false,
+                info: false
+            });
+
+            $('#evidence-table').DataTable(
+                    {
+                        searching: false,
+                        ordering: false,
+                        paging: false,
+                        info: false
+                    }
+            );
+
+
+            $(".scenario-docs .card-body table").wrap("<div class='table-responsive'></div>");
+
+            $("#requirements-tabs").tabs();
+            $("#test-tabs").tabs();
+
+            var requirementsTree = [{"text":"Test one","type":"feature","href":"71fe9ceb4c7f8720a7a465694ea1bb698c3ed3f5b7f2e6b2cee729df957eb6a5.html","nodes":[{"text":"Create students data driven test","type":"feature","href":"5ab56965a738e61de3437289c1ad308cc350941270975ac4f8a9e1c9e33b92b0.html","nodes":[],"selectable":false,"tags":["\u003ci class\u003d\u0027fa fa-check-circle-o success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]},{"text":"First serenity test","type":"feature","href":"0abff205b32c86be8f98f6eb606e544febc676c8de519c2ffa19e9f9774b94e8.html","nodes":[],"selectable":false,"tags":["\u003ci class\u003d\u0027fa fa-chain-broken compromised-icon \u0027 title\u003d\u0027COMPROMISED\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e8 scenarios\u003c/span\u003e"]},{"text":"Student CRUD test","type":"feature","href":"aba4ec35ccfb625a7688d13ffef92a4085b5c0707e2514002b4911e5ec07e4a1.html","nodes":[],"selectable":false,"tags":["\u003ci class\u003d\u0027fa fa-check-circle-o success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e4 scenarios\u003c/span\u003e"]},{"text":"Tags test","type":"feature","href":"8d96969f06e65479ed5d15223d996d1d29559a75068ba3c4bc92290d0db25708.html","nodes":[],"selectable":false,"tags":["\u003ci class\u003d\u0027fa fa-check-circle-o success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e3 scenarios\u003c/span\u003e"]}],"selectable":false,"tags":["\u003ci class\u003d\u0027fa fa-chain-broken compromised-icon \u0027 title\u003d\u0027COMPROMISED\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e4 features\u003c/span\u003e"]},{"text":"Test two","type":"feature","href":"b012ca6d2c772faf95409cbaaa89aef39832bc05e3384ff4d9dfebee1aeddf4b.html","nodes":[{"text":"Second serenity test","type":"feature","href":"2e3dda7d965538ad53e02859b36fd877456ff6bbf9cade211df1c9509aa9c3f6.html","nodes":[],"selectable":false,"tags":["\u003ci class\u003d\u0027fa fa-chain-broken compromised-icon \u0027 title\u003d\u0027COMPROMISED\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e7 scenarios\u003c/span\u003e"]}],"selectable":false,"tags":["\u003ci class\u003d\u0027fa fa-chain-broken compromised-icon \u0027 title\u003d\u0027COMPROMISED\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 feature\u003c/span\u003e"]},{"text":"Testing different request on the student application","type":"feature","href":"e81187077db954edbba15f2d2bb97d36b89551032e8909968cd5172c1eeea1f6.html","nodes":[],"selectable":false,"tags":["\u003ci class\u003d\u0027fa fa-check-circle-o success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e2 scenarios\u003c/span\u003e"]}];
+
+            $('#tree').treeview({
+                data: requirementsTree,
+                enableLinks: true,
+                showTags: true,
+                expandIcon: "glyphicon glyphicon-folder-close",
+                collapseIcon: "glyphicon glyphicon-folder-open",
+                emptyIcon: "glyphicon glyphicon-book"
+            });
+
         });
-        // Results table
-        $('#test-results-table').DataTable({
-            "order": [
-                [1, "asc"]
-            ],
-            "pageLength": 100,
-            "lengthMenu": [[50, 100, 200, -1], [50, 100, 200, "All"]]
-        });
-
-        // Results table
-        $('#req-results-table').DataTable({
-            "order": [
-                [1, "asc"]
-            ],
-            "pageLength": 100,
-            "lengthMenu": [[50, 100, 200, -1], [50, 100, 200, "All"]]
-        });
-
-        $('#examples-table').DataTable({
-            "order": [
-                [2, "asc"]
-            ],
-            "pageLength": 25
-        });
-        $("#requirements-tabs").tabs();
-        $("#test-tabs").tabs();
-    })
-    ;
     </script>
 
-    <script type="text/javascript">
+    <script>
         $(document).ready(function () {
-            $(".read-more-link").click(function () {
-                $(this).nextAll("div.read-more-text").toggle();
-                var isrc = $(this).find("img").attr('src');
-                if (isrc == 'images/plus.png') {
-                    $(this).find("img").attr("src", function () {
-                        return "images/minus.png";
-                    });
-                } else {
-                    $(this).find("img").attr("src", function () {
-                        return "images/plus.png";
-                    });
-                }
+            $(".scenario-docs > div > p").html(function () {
+                var text = $(this).text().trim().split(" ");
+                var first = text.shift();
+                return (text.length > 0 ? "<strong>" + first + "</strong> " : first) + text.join(" ");
             });
         });
     </script>
@@ -145,7 +133,10 @@
     <div id="topbanner">
         <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
         <div id="projectname-banner" style="float:right">
-            <span class="projectname">StudentAppTest</span>
+            <span class="projectname">
+                <span class="projecttitle">StudentAppTest</span>
+                <span class="projectsubtitle"></span>
+            </span>
         </div>
     </div>
 </div>
@@ -163,7 +154,6 @@
         </div>
         <div class="rightbg"></div>
     </div>
-
     <div class="clr"></div>
 
     <!--/* starts second table*/-->
@@ -179,11 +169,8 @@
         <li >
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
-        <li >
-            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
-        </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 18-01-2021 21:37</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-01-2021 21:47</span>
     <br style="clear:left"/>
 </div>
 
@@ -191,654 +178,1049 @@
 
     <div id="beforetable"></div>
     <div id="results-dashboard">
-        <div class="middlb">
-            <div class="table">
+        <div class="table">
 
 
-                <div id="requirements-summary">
-                    <div id="coverage_pie_chart"
-                         style="margin-top:10px; margin-left:10px; width:250px; height:250px;"></div>
-                    <div id="coverage_summary">
-                        <div>
-                            <h4>Requirements Overview</h4>
-                            <table class="summary-table">
-                                <head>
-                                    <tr>
-                                        <th>Requirement Type</th>
-                                        <th>Total</th>
-                                        <th>Pass&nbsp;<i class="icon-check"></i></th>
-                                        <th>Fail&nbsp;<i class="icon-thumbs-down"></i></th>
-                                        <th>Pending&nbsp;<i class="icon-calendar"></i></th>
-                                        <th>Ignored&nbsp;<i class="icon-ban-circle"></i></th>
-                                            <th>Untested&nbsp;<i class="icon-question"></i></th>
-                                    </tr>
-                                </head>
-                                <body>
-                                    <tr>
-                                        <td class="summary-leading-column"><a
-                                                href="#requirements-tabs">Features</a></td>
-                                        <td>2</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>1</td>
-                                            <td>1</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="summary-leading-column"><a
-                                                href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html">Stories</a></td>
-                                        <td>5</td>
-                                        <td>1</td>
-                                        <td>0</td>
-                                        <td>0</td>
-                                        <td>4</td>
-                                            <td>4</td>
-                                    </tr>
+            <div class="row">
+                <div class="col-sm-12">
 
-                                <tr>
-                                    <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria
-                                        (tests)</a></td>
-                                    <td>2</td>
-                                    <td>2</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td></td>
-                                </tr>
-                                </body>
-                            </table>
-                        </div>
+                    <!-- Requirements result tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                            <a data-toggle="tab" href="#specs"><i class="fas fa-comments"></i> Specifications</a>
+                        </li>
+                        <li>
+                            <a data-toggle="tab" href="#results"><i class="fas fa-tachometer-alt"></i> Test Results</a>
+                        </li>
+                    </ul>
+
+                    <!-- Specifications and Results tabs -->
+                    <div class="card border">
+                        <div class="tab-content" id="pills-tabContent">
+                            <div id="specs" class="tab-pane fade in active">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-sm-12">
+
+                                            <h3>Requirements Overview</h3>
+
+                                            <div id="tree"></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="results" class="tab-pane fade">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+
+                                            <div style="width:300px;" class="chart-container automated-and-manual-results">
+                                                <div class="ct-chart ct-square"></div>
+                                            </div>
+                                            <script>
+
+                                                var labels = ['90%', ' ', '2%', '2%', '2%', ' ', ' ', ' ', '2%', ' ', '2%', ' ', '2%', ' '];
+                                                // Our series array that contains series objects or in this case series data arrays
+
+                                                var series = [{meta: 'Passing tests (automated)', value: 113}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 2}, {meta: 'Pending tests (manual)', value: 2}, {meta: 'Ignored tests (automated)', value: 2}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 2}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 2}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 2}, {meta: 'Compromised tests (manual)', value: 0}];
+
+                                                // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
+                                                // as you saw in the previous example
+                                                var options = {
+                                                    width: 350,
+                                                    height: 300
+                                                };
+
+                                                $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                                                    new Chartist.Pie('.ct-chart', {
+                                                        series: series,
+                                                        labels: labels,
+                                                    }, {
+                                                        donut: true,
+                                                        donutWidth: 60,
+                                                        donutSolid: true,
+                                                        startAngle: 270,
+                                                        showLabel: true
+                                                    }, options);
+                                                });
+
+                                            </script>
+                                        </div>
+                                        <div class="col-sm-8">
+
+                                        <table class="table">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col">Scenario Results (including rows of test data)</th>
+                                                <th scope="col" colspan="2" class="automated-stats">
+                                                    Automated
+                                                </th>
+                                                        <th scope="col" colspan="2" class="manual-stats"> Manual</th>
+                                                        <th scope="col" colspan="2" class="total-stats"> Total</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                                    <td class="aggregate-result-count">
+                                                                        <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html"><i
+                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
+                                                                    </td>
+                                                <td class="automated-stats">113</td>
+                                                <td class="automated-stats">90%</td>
+                                                                <td class="manual-stats">0</td>
+                                                                <td class="manual-stats"> </td>
+                                                                <td class="total-stats">113</td>
+                                                                <td class="total-stats">90%</td>
+                                            </tr>
+                                            <tr>
+                                                                    <td class="aggregate-result-count">
+                                                                        <a href="bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html"><i
+                                                                                class='fa fa-stop-circle-o pending-icon'></i>&nbsp;Pending</a>
+                                                                    </td>
+                                                <td class="automated-stats">2</td>
+                                                <td class="automated-stats">2%</td>
+                                                                <td class="manual-stats">2</td>
+                                                                <td class="manual-stats">2%</td>
+                                                                <td class="total-stats">4</td>
+                                                                <td class="total-stats">3%</td>
+                                            </tr>
+                                            <tr>
+                                                                    <td class="aggregate-result-count">
+                                                                        <a href="c1b352893c3d69e59317fd825f20a75f987a859afe98fb4434f47dce70c48fd4.html"><i
+                                                                                class='fa fa-ban ignored-icon'></i>&nbsp;Ignored</a>
+                                                                    </td>
+                                                <td class="automated-stats">2</td>
+                                                <td class="automated-stats">2%</td>
+                                                                <td class="manual-stats">0</td>
+                                                                <td class="manual-stats"> </td>
+                                                                <td class="total-stats">2</td>
+                                                                <td class="total-stats">2%</td>
+                                            </tr>
+                                            <tr>
+                                                                <td class="aggregate-result-count"><i
+                                                                        class='fa fa-fast-forward skip-icon'></i>&nbsp;Skipped
+                                                                </td>
+                                                <td class="automated-stats">0</td>
+                                                <td class="automated-stats"> </td>
+                                                                <td class="manual-stats">0</td>
+                                                                <td class="manual-stats"> </td>
+                                                                <td class="total-stats">0</td>
+                                                                <td class="total-stats"> </td>
+                                            </tr>
+                                            <tr>
+                                                                           <td colspan="7"><a href="b964a040ccee2192880812cc5de2c4d0075e3288c1b298b7dda0839367bb26be.html"><i
+                                                                                   class='fa fa-times failure-icon'></i>&nbsp;<em>Unsuccessful</em></a>
+                                                                           </td>
+
+                                            </tr>
+
+                                            <tr>
+                                                                    <td class="aggregate-result-count indented-error-category">
+                                                                        <a href="da5b0c51b332adf0ef993a9f086d6a1b51a3d800248ec6ae281212092f35bd37.html"><i
+                                                                                class='fa fa-times-circle failure-icon'></i>&nbsp;Failed</a>
+                                                                    </td>
+                                                <td class="automated-stats">2</td>
+                                                <td class="automated-stats">2%</td>
+                                                                <td class="manual-stats">0</td>
+                                                                <td class="manual-stats"> </td>
+                                                                <td class="total-stats">2</td>
+                                                                <td class="total-stats">2%</td>
+                                            <tr>
+                                                                    <td class="aggregate-result-count indented-error-category">
+                                                                        <a href="c8a926210aeff57f8aa7ea799262d4b730915a909cd5ecd6a705b1fa13bc7aa8.html"><i
+                                                                                class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
+                                                                    </td>
+                                                <td class="automated-stats">2</td>
+                                                <td class="automated-stats">2%</td>
+                                                                <td class="manual-stats">0</td>
+                                                                <td class="manual-stats"> </td>
+                                                                <td class="total-stats">2</td>
+                                                                <td class="total-stats">2%</td>
+                                            <tr>
+                                                                    <td class="aggregate-result-count indented-error-category">
+                                                                        <a href="02dd8f8ada4c10b8ebb5c1f309605a6f7c147adc21bcf5c55829855ba045ff03.html"><i
+                                                                                class='fa fa-chain-broken compromised-icon'></i>&nbsp;Compromised</a>
+                                                                    </td>
+                                                <td class="automated-stats">2</td>
+                                                <td class="automated-stats">2%</td>
+                                                                <td class="manual-stats">0</td>
+                                                                <td class="manual-stats"> </td>
+                                                                <td class="total-stats">2</td>
+                                                                <td class="total-stats">2%</td>
+                                            </tr>
+                                            <tr class="summary-stats">
+                                                <td class="aggregate-result-count">Total</td>
+                                                <td class="automated-stats">123</td>
+                                                <td class="automated-stats"></td>
+                                                            <td class="manual-stats">2</td>
+                                                            <td class="manual-stats"></td>
+                                                            <td class="total-stats">125</td>
+                                                            <td class="total-stats"></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    </div>
+
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <table class="table">
+                                                    <thead>
+                                                    <tr>
+                                                        <th>Execution Time</th>
+                                                        <th>Clock Time</th>
+                                                        <th>Fastest Test</th>
+                                                        <th>Slowest Test</th>
+                                                        <th>Average Execution Time</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>31s</td>
+                                                        <td> 1m 20s</td>
+                                                        <td>0ms</td>
+                                                        <td>8s</td>
+                                                        <td>1s</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <h3><i class="fas fa-clipboard-check"></i> Functional Coverage</h3>
 
 
 
+<h4 class="requireent-type-heading">Features</h4>
 
-
-<div>
-    <h4>Test Result Summary</h4>
-    <table class="summary-table">
-        <head>
-            <tr>
-                <th>Test Type</th>
-                <th>Total</th>
-                <th>Pass&nbsp;<i class="icon-check"/> </th>
-                <th>Fail&nbsp;<i class="icon-thumbs-down"/></th>
-                <th>Pending&nbsp;<i class="icon-calendar"/></th>
-                <th>Ignore/Skip&nbsp;<i class="icon-ban-circle"/></th>
-            </tr>
-        </head>
-        <body>
+<table class="scenario-result table" id="req-results-table">
+    <thead>
         <tr>
-            <td class="summary-leading-column">Automated</td>
-            <td>2</td>
-            <td>2 (100%)</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
+            <th class="requirement-name-column" width="60%">Feature</th>
+            <th>ID</th>
+            <th>Automated Tests</th>
+                <th>Manual Tests</th>
+            <th>Results</th>
+            <th>Coverage</th>
         </tr>
+    </thead>
+    <tbody>
+
+
         <tr>
-            <td class="summary-leading-column">Manual</td>
+
+
+            <td> 
+                <a href="71fe9ceb4c7f8720a7a465694ea1bb698c3ed3f5b7f2e6b2cee729df957eb6a5.html">Test one</a></span>
+            </td>
+            <td> 
+                
+            </td>
+            <td>114</td>
+            <td>1</td>
+            <td>
+                <span class="status_icon"><i class='fa fa-chain-broken compromised-icon ' title='COMPROMISED'></i></span>
+                <span style="display:none">5</span>
+            </td>
+
+            <td width="165px" style="padding:0px;">
+
+
+<table>
+    <tr>
+        <td width="40px" style="padding-top:4px;">
+            <div class="small" style="text-align:right;">94.8%</div>
+        </td>
+        <td style="min-width:12.5em;">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar"
+                     style="width: 94.782609%; background-color:#30cb23;"
+                     aria-valuenow="109"
+                     aria-valuemin="0"
+                     aria-valuemax="115"
+                     title="  - Total tests: 115
+  - Passing tests: 109 (94.8%)
+  - Failing tests: 1 (0.9%)
+  - Tests with errors: 1 (0.9%)
+  - Compromised tests 1 (0.9%)
+  - Pending tests: 2 (1.7%)
+  - Ignored or skipped tests: 1 (0.9%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 1.73913%; background-color:#A2C4EC;"
+                     aria-valuenow="2"
+                     aria-valuemin="0"
+                     aria-valuemax="115"
+                     title="  - Total tests: 115
+  - Passing tests: 109 (94.8%)
+  - Failing tests: 1 (0.9%)
+  - Tests with errors: 1 (0.9%)
+  - Compromised tests 1 (0.9%)
+  - Pending tests: 2 (1.7%)
+  - Ignored or skipped tests: 1 (0.9%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 0.869565%; background-color:darkgrey;"
+                     aria-valuenow="1"
+                     aria-valuemin="0"
+                     aria-valuemax="115"
+                     title="  - Total tests: 115
+  - Passing tests: 109 (94.8%)
+  - Failing tests: 1 (0.9%)
+  - Tests with errors: 1 (0.9%)
+  - Compromised tests 1 (0.9%)
+  - Pending tests: 2 (1.7%)
+  - Ignored or skipped tests: 1 (0.9%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 0%; background-color:#EEE098;"
+                     aria-valuenow="0"
+                     aria-valuemin="0"
+                     aria-valuemax="115"
+                     title="  - Total tests: 115
+  - Passing tests: 109 (94.8%)
+  - Failing tests: 1 (0.9%)
+  - Tests with errors: 1 (0.9%)
+  - Compromised tests 1 (0.9%)
+  - Pending tests: 2 (1.7%)
+  - Ignored or skipped tests: 1 (0.9%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 0.869565%; background-color:#f8001f;"
+                     aria-valuenow="1"
+                     aria-valuemin="0"
+                     aria-valuemax="115"
+                     title="  - Total tests: 115
+  - Passing tests: 109 (94.8%)
+  - Failing tests: 1 (0.9%)
+  - Tests with errors: 1 (0.9%)
+  - Compromised tests 1 (0.9%)
+  - Pending tests: 2 (1.7%)
+  - Ignored or skipped tests: 1 (0.9%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 0.869565%; background-color:darkorange;"
+                     aria-valuenow="1"
+                     aria-valuemin="0"
+                     aria-valuemax="115"
+                     title="  - Total tests: 115
+  - Passing tests: 109 (94.8%)
+  - Failing tests: 1 (0.9%)
+  - Tests with errors: 1 (0.9%)
+  - Compromised tests 1 (0.9%)
+  - Pending tests: 2 (1.7%)
+  - Ignored or skipped tests: 1 (0.9%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 0.869565%; background-color:fuchsia;"
+                     aria-valuenow="1"
+                     aria-valuemin="0"
+                     aria-valuemax="115"
+                     title="  - Total tests: 115
+  - Passing tests: 109 (94.8%)
+  - Failing tests: 1 (0.9%)
+  - Tests with errors: 1 (0.9%)
+  - Compromised tests 1 (0.9%)
+  - Pending tests: 2 (1.7%)
+  - Ignored or skipped tests: 1 (0.9%)">
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+            </td>
+
+        </tr>
+
+
+        <tr>
+
+
+            <td> 
+                <a href="b012ca6d2c772faf95409cbaaa89aef39832bc05e3384ff4d9dfebee1aeddf4b.html">Test two</a></span>
+            </td>
+            <td> 
+                
+            </td>
+            <td>6</td>
+            <td>1</td>
+            <td>
+                <span class="status_icon"><i class='fa fa-chain-broken compromised-icon ' title='COMPROMISED'></i></span>
+                <span style="display:none">5</span>
+            </td>
+
+            <td width="165px" style="padding:0px;">
+
+
+<table>
+    <tr>
+        <td width="40px" style="padding-top:4px;">
+            <div class="small" style="text-align:right;">14.3%</div>
+        </td>
+        <td style="min-width:12.5em;">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar"
+                     style="width: 14.285714%; background-color:#30cb23;"
+                     aria-valuenow="1"
+                     aria-valuemin="0"
+                     aria-valuemax="7"
+                     title="  - Total tests: 7
+  - Passing tests: 1 (14.3%)
+  - Failing tests: 1 (14.3%)
+  - Tests with errors: 1 (14.3%)
+  - Compromised tests 1 (14.3%)
+  - Pending tests: 2 (28.6%)
+  - Ignored or skipped tests: 1 (14.3%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 28.571429%; background-color:#A2C4EC;"
+                     aria-valuenow="2"
+                     aria-valuemin="0"
+                     aria-valuemax="7"
+                     title="  - Total tests: 7
+  - Passing tests: 1 (14.3%)
+  - Failing tests: 1 (14.3%)
+  - Tests with errors: 1 (14.3%)
+  - Compromised tests 1 (14.3%)
+  - Pending tests: 2 (28.6%)
+  - Ignored or skipped tests: 1 (14.3%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 14.285714%; background-color:darkgrey;"
+                     aria-valuenow="1"
+                     aria-valuemin="0"
+                     aria-valuemax="7"
+                     title="  - Total tests: 7
+  - Passing tests: 1 (14.3%)
+  - Failing tests: 1 (14.3%)
+  - Tests with errors: 1 (14.3%)
+  - Compromised tests 1 (14.3%)
+  - Pending tests: 2 (28.6%)
+  - Ignored or skipped tests: 1 (14.3%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 0%; background-color:#EEE098;"
+                     aria-valuenow="0"
+                     aria-valuemin="0"
+                     aria-valuemax="7"
+                     title="  - Total tests: 7
+  - Passing tests: 1 (14.3%)
+  - Failing tests: 1 (14.3%)
+  - Tests with errors: 1 (14.3%)
+  - Compromised tests 1 (14.3%)
+  - Pending tests: 2 (28.6%)
+  - Ignored or skipped tests: 1 (14.3%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 14.285714%; background-color:#f8001f;"
+                     aria-valuenow="1"
+                     aria-valuemin="0"
+                     aria-valuemax="7"
+                     title="  - Total tests: 7
+  - Passing tests: 1 (14.3%)
+  - Failing tests: 1 (14.3%)
+  - Tests with errors: 1 (14.3%)
+  - Compromised tests 1 (14.3%)
+  - Pending tests: 2 (28.6%)
+  - Ignored or skipped tests: 1 (14.3%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 14.285714%; background-color:darkorange;"
+                     aria-valuenow="1"
+                     aria-valuemin="0"
+                     aria-valuemax="7"
+                     title="  - Total tests: 7
+  - Passing tests: 1 (14.3%)
+  - Failing tests: 1 (14.3%)
+  - Tests with errors: 1 (14.3%)
+  - Compromised tests 1 (14.3%)
+  - Pending tests: 2 (28.6%)
+  - Ignored or skipped tests: 1 (14.3%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 14.285714%; background-color:fuchsia;"
+                     aria-valuenow="1"
+                     aria-valuemin="0"
+                     aria-valuemax="7"
+                     title="  - Total tests: 7
+  - Passing tests: 1 (14.3%)
+  - Failing tests: 1 (14.3%)
+  - Tests with errors: 1 (14.3%)
+  - Compromised tests 1 (14.3%)
+  - Pending tests: 2 (28.6%)
+  - Ignored or skipped tests: 1 (14.3%)">
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+            </td>
+
+        </tr>
+
+
+        <tr>
+
+
+            <td> 
+                <a href="e81187077db954edbba15f2d2bb97d36b89551032e8909968cd5172c1eeea1f6.html">Testing different request on the student application</a></span>
+            </td>
+            <td> 
+                
+            </td>
+            <td>3</td>
             <td>0</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
+            <td>
+                <span class="status_icon"><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></span>
+                <span style="display:none">1</span>
+            </td>
+
+            <td width="165px" style="padding:0px;">
+
+
+<table>
+    <tr>
+        <td width="40px" style="padding-top:4px;">
+            <div class="small" style="text-align:right;">100%</div>
+        </td>
+        <td style="min-width:12.5em;">
+            <div class="progress">
+                <div class="progress-bar" role="progressbar"
+                     style="width: 100%; background-color:#30cb23;"
+                     aria-valuenow="3"
+                     aria-valuemin="0"
+                     aria-valuemax="3"
+                     title="  - Total tests: 3
+  - Passing tests: 3 (100%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 0%; background-color:#A2C4EC;"
+                     aria-valuenow="0"
+                     aria-valuemin="0"
+                     aria-valuemax="3"
+                     title="  - Total tests: 3
+  - Passing tests: 3 (100%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 0%; background-color:darkgrey;"
+                     aria-valuenow="0"
+                     aria-valuemin="0"
+                     aria-valuemax="3"
+                     title="  - Total tests: 3
+  - Passing tests: 3 (100%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 0%; background-color:#EEE098;"
+                     aria-valuenow="0"
+                     aria-valuemin="0"
+                     aria-valuemax="3"
+                     title="  - Total tests: 3
+  - Passing tests: 3 (100%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 0%; background-color:#f8001f;"
+                     aria-valuenow="0"
+                     aria-valuemin="0"
+                     aria-valuemax="3"
+                     title="  - Total tests: 3
+  - Passing tests: 3 (100%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 0%; background-color:darkorange;"
+                     aria-valuenow="0"
+                     aria-valuemin="0"
+                     aria-valuemax="3"
+                     title="  - Total tests: 3
+  - Passing tests: 3 (100%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                </div>
+                <div class="progress-bar" role="progressbar"
+                     style="width: 0%; background-color:fuchsia;"
+                     aria-valuenow="0"
+                     aria-valuemin="0"
+                     aria-valuemax="3"
+                     title="  - Total tests: 3
+  - Passing tests: 3 (100%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+            </td>
+
         </tr>
-        <tr>
-            <td class="summary-leading-column">Total</td>
-            <td>2</td>
-            <td>2 (100%)</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
-        </tr>
-        <tr>
-            <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">17 seconds</td>
-        </tr>
-        </body>
-    </table>
-</div>
-                    </div>
-                </div>
-                <div class="clr"></div>
-                <div id="requirements-tabs">
-                        <ul>
-                                <li><a href="#tabs-1">
-                                    Features (2)
-                                </a></li>
-                        </ul>
-                        <div id="tabs-1" class="capabilities-table">
-                            <div id="tabs-1" class="capabilities-table">
-
-
-<div id="req_list_tests" class="table">
-    <div class="test-results">
-        <table id="req-results-table">
-            <thead>
-            <tr>
-                <th width="30" class="test-results-heading">&nbsp;</th>
-                <th width="65" class="test-results-heading">ID</th>
-                <th width="525" class="test-results-heading">Feature</th>
-                    <th width="65" class="test-results-heading">Stories</th>
-                <th class="test-results-heading" width="75px">Automated<br/>Tests</th>
-                    <th class="test-results-heading" width="75px">Manual<br/>Tests</th>
-
-                <th width="125px" class="test-results-heading">Test Results</th>
-
-                <th width="125px" class="test-results-heading">Working Stories</th>
-            </tr>
-            <tbody>
+    </tbody>
+</table>
 
 
 
-                <tr class="test-SUCCESS requirementRow">
-                    <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                        <span style="display:none">1</span>
-                    </td>
-                    <td class="cardNumber requirementRowCell"></td>
+                                            </div>
+                                        </div>
 
-                    <td class="SUCCESS-text requirementRowCell">
-                        <a href="javaScript:void(0)" class="read-more-link">
-                            <img src="images/plus.png" height="16"/></a>
-                        <span class="requirementName"><a
-                                href="71fe9ceb4c7f8720a7a465694ea1bb698c3ed3f5b7f2e6b2cee729df957eb6a5.html">Test one</a></span>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <h3><i class="fas fa-cogs"></i> Automated Tests</h3>
 
-                        <div class="requirementNarrative read-more-text"></div>
-                    </td>
+                                            <table class="scenario-result-table table" id="scenario-results">
+                                                <thead>
+                                                <tr>
+                                                    <th>feature</th>
+                                                    <th class="test-name-column">Scenario</th>
+                                                    <th>Steps</th>
+                                                    <th>Start Time</th>
+                                                    <th>Duration</th>
+                                                    <th>Result</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="2850e383bdccf0a45adf43562309bbb4a84427d3d382a18275935716f31dcd3e.html">Testing different request on the student application</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="1b6814dc6960a5d7177c1d39ede447f7e16604862d36c7f54688d1e29b7e15fd.html">Check if the student application can be accessed by users</a>
+                                                    </td>
+                                                    <td>1</td>
+                                                    <td>21:47:28</td>
+                                                    <td>00:08</td>
+                                                    <td>
+                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="2850e383bdccf0a45adf43562309bbb4a84427d3d382a18275935716f31dcd3e.html">Testing different request on the student application</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="c3d0c9445daf84d5dad0e4b0d2ebd67f7d40f2adbbf750c7424b62d6950a1290.html">Create a new student & verify if the student is added</a>
+                                                               (2 examples)
+                                                    </td>
+                                                    <td>2</td>
+                                                    <td>21:47:37</td>
+                                                    <td>00:04</td>
+                                                    <td>
+                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="5ab56965a738e61de3437289c1ad308cc350941270975ac4f8a9e1c9e33b92b0.html">Create students data driven test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="5939745c54594fc31541cef001581a3c8890cb22ee49973c8ce4240ff316489b.html">Data driven test for add multi student</a>
+                                                               (100 examples)
+                                                    </td>
+                                                    <td>1</td>
+                                                    <td>21:48:33</td>
+                                                    <td>00:04</td>
+                                                    <td>
+                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result COMPROMISED">
+                                                    <td>
+                                                            <a href="0abff205b32c86be8f98f6eb606e544febc676c8de519c2ffa19e9f9774b94e8.html">First serenity test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="aab2cbba6d111084350db430f0e655f7c10e9eb4ea1da1a8034e02a6e01317d1.html">This is a test with file does not exist</a>
+                                                    </td>
+                                                    <td>0</td>
+                                                    <td>21:48:35</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-chain-broken compromised-icon ' title='COMPROMISED'></i> <span
+                                                                style="display:none">COMPROMISED</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="0abff205b32c86be8f98f6eb606e544febc676c8de519c2ffa19e9f9774b94e8.html">First serenity test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="6a2a9dcd0c764c89da239813bc7ece4d1146b234b1f6130144a4c424425f25a2.html">This test will get all information of student</a>
+                                                    </td>
+                                                    <td>1</td>
+                                                    <td>21:48:35</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="0abff205b32c86be8f98f6eb606e544febc676c8de519c2ffa19e9f9774b94e8.html">First serenity test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="5f72246d9aa79ac00e6726dbc28e93499e8fa7196b9d25eb9b49cca0fc484806.html">Get all student</a>
+                                                    </td>
+                                                    <td>1</td>
+                                                    <td>21:48:36</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result IGNORED">
+                                                    <td>
+                                                            <a href="0abff205b32c86be8f98f6eb606e544febc676c8de519c2ffa19e9f9774b94e8.html">First serenity test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="f5b35eb05809a1241b44358200d6372fba00beadd6c0ffcfef7cc4d567f831eb.html">This is a ignore</a>
+                                                    </td>
+                                                    <td>0</td>
+                                                    <td>21:48:37</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-ban ignored-icon ' title='IGNORED'></i> <span
+                                                                style="display:none">IGNORED</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result ERROR">
+                                                    <td>
+                                                            <a href="0abff205b32c86be8f98f6eb606e544febc676c8de519c2ffa19e9f9774b94e8.html">First serenity test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="206bec005d0e84c720da0b4907e80aac0655b3240921259d0e15a18e54246405.html">This is a test with error</a>
+                                                    </td>
+                                                    <td>0</td>
+                                                    <td>21:48:37</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i> <span
+                                                                style="display:none">ERROR</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result FAILURE">
+                                                    <td>
+                                                            <a href="0abff205b32c86be8f98f6eb606e544febc676c8de519c2ffa19e9f9774b94e8.html">First serenity test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="8152a035afd9aecc87eff6609a9cf14c0994607a097df4efe64370e99d2a2227.html">This is a failing</a>
+                                                    </td>
+                                                    <td>1</td>
+                                                    <td>21:48:38</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-times-circle failure-icon ' title='FAILURE'></i> <span
+                                                                style="display:none">FAILURE</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result PENDING">
+                                                    <td>
+                                                            <a href="0abff205b32c86be8f98f6eb606e544febc676c8de519c2ffa19e9f9774b94e8.html">First serenity test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="c4405891673be4281c3e3ed8844cf399e503b2e2a445362e1b685ff347cde493.html">This is a pending</a>
+                                                    </td>
+                                                    <td>0</td>
+                                                    <td>21:48:38</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='far fa-stop-circle pending-icon ' title='PENDING'></i> <span
+                                                                style="display:none">PENDING</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="aba4ec35ccfb625a7688d13ffef92a4085b5c0707e2514002b4911e5ec07e4a1.html">Student CRUD test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="8db4164bf24752520ae86b21346ba270c9b388db1dda343be78c6b130d71cf35.html">This test create a new student</a>
+                                                    </td>
+                                                    <td>1</td>
+                                                    <td>21:48:39</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="aba4ec35ccfb625a7688d13ffef92a4085b5c0707e2514002b4911e5ec07e4a1.html">Student CRUD test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="c648ab9218b5558236a0014c13b09b5ba7bc8e4d11c7cc704f93dd4f1723d64e.html">Verify that student added in to the application</a>
+                                                    </td>
+                                                    <td>1</td>
+                                                    <td>21:48:40</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="aba4ec35ccfb625a7688d13ffef92a4085b5c0707e2514002b4911e5ec07e4a1.html">Student CRUD test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="9f796279735584385dd52bdac3e1fcfbb340877457a309344d421b70b815d157.html">Update Student</a>
+                                                    </td>
+                                                    <td>2</td>
+                                                    <td>21:48:41</td>
+                                                    <td>00:01</td>
+                                                    <td>
+                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="aba4ec35ccfb625a7688d13ffef92a4085b5c0707e2514002b4911e5ec07e4a1.html">Student CRUD test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="294574522ebe278d032cd45309f6d9b62798e44fee3f1e6e28f038438e7e0fb8.html">Delete Student and verify if student is deleted</a>
+                                                    </td>
+                                                    <td>2</td>
+                                                    <td>21:48:42</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="8d96969f06e65479ed5d15223d996d1d29559a75068ba3c4bc92290d0db25708.html">Tags test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="ca88d0d6e70c534b5e5d952a862c43bd740b271079076acac0735734120c7c1c.html">This test will provide an error code of 400 when user tries to access an invalid resource</a>
+                                                    </td>
+                                                    <td>1</td>
+                                                    <td>21:48:43</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="8d96969f06e65479ed5d15223d996d1d29559a75068ba3c4bc92290d0db25708.html">Tags test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="64366181c67b121203852ece5d6ed0ac4da29a5ae5d4ec745825a8f68488636b.html">Provide a 405 status code when incorrect HTTP method is used to access a resource</a>
+                                                    </td>
+                                                    <td>1</td>
+                                                    <td>21:48:44</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="8d96969f06e65479ed5d15223d996d1d29559a75068ba3c4bc92290d0db25708.html">Tags test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="8a325a7ffa241865298032a477aa3e63c1b660b7e1c40943d65a33760bea3ec7.html">This test will verify if a status code of 200 is returned for GET request</a>
+                                                    </td>
+                                                    <td>1</td>
+                                                    <td>21:48:45</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result COMPROMISED">
+                                                    <td>
+                                                            <a href="2e3dda7d965538ad53e02859b36fd877456ff6bbf9cade211df1c9509aa9c3f6.html">Second serenity test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="9199000af985d97b31fb966b2649527dcd28a48a7d62917e7f6915bc827c9c3c.html">This is a test with file does not exist</a>
+                                                    </td>
+                                                    <td>0</td>
+                                                    <td>21:48:46</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-chain-broken compromised-icon ' title='COMPROMISED'></i> <span
+                                                                style="display:none">COMPROMISED</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result SUCCESS">
+                                                    <td>
+                                                            <a href="2e3dda7d965538ad53e02859b36fd877456ff6bbf9cade211df1c9509aa9c3f6.html">Second serenity test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="bc92ce2688f1f8eb0430d0e7c90cf51167660d153a0e0f5e63b37d9a37bc076d.html">Get all student</a>
+                                                    </td>
+                                                    <td>1</td>
+                                                    <td>21:48:46</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i> <span
+                                                                style="display:none">SUCCESS</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result IGNORED">
+                                                    <td>
+                                                            <a href="2e3dda7d965538ad53e02859b36fd877456ff6bbf9cade211df1c9509aa9c3f6.html">Second serenity test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="d9e11579ee377b330fcad5fafb932f2e5d6e4d484ad942c6d5c7fc5c0e686547.html">This is a ignore</a>
+                                                    </td>
+                                                    <td>0</td>
+                                                    <td>21:48:46</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-ban ignored-icon ' title='IGNORED'></i> <span
+                                                                style="display:none">IGNORED</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result ERROR">
+                                                    <td>
+                                                            <a href="2e3dda7d965538ad53e02859b36fd877456ff6bbf9cade211df1c9509aa9c3f6.html">Second serenity test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="885ec633733b774c93009dce92d0b2a277771c0138aa463c2753aeb08ef92a88.html">This is a test with error</a>
+                                                    </td>
+                                                    <td>0</td>
+                                                    <td>21:48:48</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i> <span
+                                                                style="display:none">ERROR</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result FAILURE">
+                                                    <td>
+                                                            <a href="2e3dda7d965538ad53e02859b36fd877456ff6bbf9cade211df1c9509aa9c3f6.html">Second serenity test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="1454340167150b8dc256ca80e49b56c3da3d0eced10fe94e9c2ce483b63cc939.html">This is a failing</a>
+                                                    </td>
+                                                    <td>1</td>
+                                                    <td>21:48:48</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='fa fa-times-circle failure-icon ' title='FAILURE'></i> <span
+                                                                style="display:none">FAILURE</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="scenario-result PENDING">
+                                                    <td>
+                                                            <a href="2e3dda7d965538ad53e02859b36fd877456ff6bbf9cade211df1c9509aa9c3f6.html">Second serenity test</a>
+                                                    </td>
+                                                    <td>
+                                                            <a href="2dd78a8afe8accaab1ea2c06b4fa868dbf516cc8fe88918f9b8084982b38247a.html">This is a pending</a>
+                                                    </td>
+                                                    <td>0</td>
+                                                    <td>21:48:49</td>
+                                                    <td>00:00</td>
+                                                    <td>
+                                                            <i class='far fa-stop-circle pending-icon ' title='PENDING'></i> <span
+                                                                style="display:none">PENDING</span>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
 
-                        <td class="bluetext requirementRowCell">4</td>
+                                            </div>
+                                        </div>
 
-                    <td class="greentext highlighted-value requirementRowCell">2</td>
-<!--
-                    <td class="greentext requirementRowCell">2</td>
-                    <td class="bluetext requirementRowCell">0</td>
-                    <td class="redtext requirementRowCell">0</td>
-                    <td class="lightorangetext requirementRowCell">0</td>
-                    <td class="violettext requirementRowCell">0</td>
--->
-                        <td class="greentext highlighted-value requirementRowCell">0</td>
-<!--
-                        <td class="greentext requirementRowCell">0</td>
-                        <td class="bluetext requirementRowCell">0</td>
-                        <td class="redtext requirementRowCell">0</td>
-                        <td class="lightorangetext requirementRowCell">0</td>
-                        -->
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <h3><i class="fas fa-edit"></i> Manual Tests</h3>
 
-                    <td width="125px" class="lightgreentext requirementRowCell">
+                                            <table class="scenario-result-table table" id="manual-scenario-results">
+                                                <thead>
+                                                <tr>
+                                                    <th>feature</th>
+                                                    <th class="test-name-column" style="width:60em;">Scenario</th>
+                                                    <th>Steps</th>
+                                                    <th>Result</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr class="scenario-result PENDING">
+                                                    <td>
+                                                            <a href="0abff205b32c86be8f98f6eb606e544febc676c8de519c2ffa19e9f9774b94e8.html">First serenity test</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="18c1b1a8cd2dd8bdb0e6f649496c65289fa283e70a0797569f6177f5d762935b.html">This is a manual test</a>
+                                                    </td>
+                                                    <td>0</td>
+                                                    <td><i class='far fa-stop-circle pending-icon ' title='PENDING'></i> <span
+                                                            style="display:none">PENDING</span></td>
+                                                </tr>
+                                                <tr class="scenario-result PENDING">
+                                                    <td>
+                                                            <a href="2e3dda7d965538ad53e02859b36fd877456ff6bbf9cade211df1c9509aa9c3f6.html">Second serenity test</a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="15f5913199848819e5bfce6a5fa7c0a7825bdd50dcd600ec1841a02c5b7ccbc1.html">This is a manual test</a>
+                                                    </td>
+                                                    <td>0</td>
+                                                    <td><i class='far fa-stop-circle pending-icon ' title='PENDING'></i> <span
+                                                            style="display:none">PENDING</span></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
 
+                                            </div>
+                                        </div>
 
-<table>
-    <tr>
-        <td width="40px">
-            <div class="small">100%</div>
-        </td>
-        <td width="125px">
-            <div class="percentagebar"
-                 title="  - Total tests: 2
-  - Passing tests: 2 (100%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)"
-                 style="width: 125px;">
-                <div class="pendingbar"
-                     title="  - Total tests: 2
-  - Passing tests: 2 (100%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)"
-                     style="width: 125px;">
-                    <div class="ignoredbar"
-                         style="width: 125px;"
-                         title="  - Total tests: 2
-  - Passing tests: 2 (100%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                        <div class="compromisedbar"
-                             style="width: 125px;"
-                             title="  - Total tests: 2
-  - Passing tests: 2 (100%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                            <div class="errorbar"
-                                 style="width: 125px;"
-                                 title="  - Total tests: 2
-  - Passing tests: 2 (100%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                                <div class="failingbar"
-                                     style="width: 125px;"
-                                     title="  - Total tests: 2
-  - Passing tests: 2 (100%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                                    <div class="passingbar"
-                                         style="width: 125px;"
-                                         title="  - Total tests: 2
-  - Passing tests: 2 (100%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </td>
-    </tr>
-</table>
-                    </td>
-
-                    <td width="125px" class="lightgreentext requirementRowCell">
-
-
-<table>
-    <tr>
-        <td width="40px">
-            <div class="small">25%</div>
-        </td>
-        <td width="125px">
-            <div class="percentagebar"
-                 title="Test one:
-  - Passing Stories: 1 (25%
-  - Stories Failing: 0 (0%
-  - Stories Failing with errors: 0
-  - Compromised Stories: 0
-  - Pending Stories: 0
-  - Ignored or skipped Stories: 0
-  - Untested Stories: 3 (75%"
-                 style="width: 125px;">
-                <div class="pendingbar"
-                     title="Test one:
-  - Passing Stories: 1 (25%
-  - Stories Failing: 0 (0%
-  - Stories Failing with errors: 0
-  - Compromised Stories: 0
-  - Pending Stories: 0
-  - Ignored or skipped Stories: 0
-  - Untested Stories: 3 (75%"
-                     style="width: 31px;">
-                    <div class="ignoredbar"
-                         style="width: 31px;"
-                         title="Test one:
-  - Passing Stories: 1 (25%
-  - Stories Failing: 0 (0%
-  - Stories Failing with errors: 0
-  - Compromised Stories: 0
-  - Pending Stories: 0
-  - Ignored or skipped Stories: 0
-  - Untested Stories: 3 (75%">
-                        <div class="compromisedbar"
-                             style="width: 31px;"
-                             title="Test one:
-  - Passing Stories: 1 (25%
-  - Stories Failing: 0 (0%
-  - Stories Failing with errors: 0
-  - Compromised Stories: 0
-  - Pending Stories: 0
-  - Ignored or skipped Stories: 0
-  - Untested Stories: 3 (75%">
-                            <div class="errorbar"
-                                 style="width: 31px;"
-                                 title="Test one:
-  - Passing Stories: 1 (25%
-  - Stories Failing: 0 (0%
-  - Stories Failing with errors: 0
-  - Compromised Stories: 0
-  - Pending Stories: 0
-  - Ignored or skipped Stories: 0
-  - Untested Stories: 3 (75%">
-                                <div class="failingbar"
-                                     style="width: 31px;"
-                                     title="Test one:
-  - Passing Stories: 1 (25%
-  - Stories Failing: 0 (0%
-  - Stories Failing with errors: 0
-  - Compromised Stories: 0
-  - Pending Stories: 0
-  - Ignored or skipped Stories: 0
-  - Untested Stories: 3 (75%">
-                                    <div class="passingbar"
-                                         style="width: 31px;"
-                                         title="Test one:
-  - Passing Stories: 1 (25%
-  - Stories Failing: 0 (0%
-  - Stories Failing with errors: 0
-  - Compromised Stories: 0
-  - Pending Stories: 0
-  - Ignored or skipped Stories: 0
-  - Untested Stories: 3 (75%">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </td>
-    </tr>
-</table>
-                    </td>
-                </tr>
-
-
-                <tr class="test-SUCCESS requirementRow">
-                    <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                        <span style="display:none">2</span>
-                    </td>
-                    <td class="cardNumber requirementRowCell"></td>
-
-                    <td class="SUCCESS-text requirementRowCell">
-                        <a href="javaScript:void(0)" class="read-more-link">
-                            <img src="images/plus.png" height="16"/></a>
-                        <span class="requirementName"><a
-                                href="b012ca6d2c772faf95409cbaaa89aef39832bc05e3384ff4d9dfebee1aeddf4b.html">Test two</a></span>
-
-                        <div class="requirementNarrative read-more-text"></div>
-                    </td>
-
-                        <td class="bluetext requirementRowCell">1</td>
-
-                    <td class="greentext highlighted-value requirementRowCell">0</td>
-<!--
-                    <td class="greentext requirementRowCell">0</td>
-                    <td class="bluetext requirementRowCell">0</td>
-                    <td class="redtext requirementRowCell">0</td>
-                    <td class="lightorangetext requirementRowCell">0</td>
-                    <td class="violettext requirementRowCell">0</td>
--->
-                        <td class="greentext highlighted-value requirementRowCell">0</td>
-<!--
-                        <td class="greentext requirementRowCell">0</td>
-                        <td class="bluetext requirementRowCell">0</td>
-                        <td class="redtext requirementRowCell">0</td>
-                        <td class="lightorangetext requirementRowCell">0</td>
-                        -->
-
-                    <td width="125px" class="lightgreentext requirementRowCell">
-
-
-<table>
-    <tr>
-        <td width="40px">
-            <div class="small">0%</div>
-        </td>
-        <td width="125px">
-            <div class="percentagebar"
-                 title="  - Total tests: 0
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)"
-                 style="width: 125px;">
-                <div class="pendingbar"
-                     title="  - Total tests: 0
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)"
-                     style="width: 0px;">
-                    <div class="ignoredbar"
-                         style="width: 0px;"
-                         title="  - Total tests: 0
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                        <div class="compromisedbar"
-                             style="width: 0px;"
-                             title="  - Total tests: 0
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                            <div class="errorbar"
-                                 style="width: 0px;"
-                                 title="  - Total tests: 0
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                                <div class="failingbar"
-                                     style="width: 0px;"
-                                     title="  - Total tests: 0
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                                    <div class="passingbar"
-                                         style="width: 0px;"
-                                         title="  - Total tests: 0
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </td>
-    </tr>
-</table>
-                    </td>
-
-                    <td width="125px" class="lightgreentext requirementRowCell">
-
-
-<table>
-    <tr>
-        <td width="40px">
-            <div class="small">0%</div>
-        </td>
-        <td width="125px">
-            <div class="percentagebar"
-                 title="Test two:
-  - Passing Stories: 0 (0%
-  - Stories Failing: 0 (0%
-  - Stories Failing with errors: 0
-  - Compromised Stories: 0
-  - Pending Stories: 0
-  - Ignored or skipped Stories: 0
-  - Untested Stories: 1 (100%"
-                 style="width: 125px;">
-                <div class="pendingbar"
-                     title="Test two:
-  - Passing Stories: 0 (0%
-  - Stories Failing: 0 (0%
-  - Stories Failing with errors: 0
-  - Compromised Stories: 0
-  - Pending Stories: 0
-  - Ignored or skipped Stories: 0
-  - Untested Stories: 1 (100%"
-                     style="width: 0px;">
-                    <div class="ignoredbar"
-                         style="width: 0px;"
-                         title="Test two:
-  - Passing Stories: 0 (0%
-  - Stories Failing: 0 (0%
-  - Stories Failing with errors: 0
-  - Compromised Stories: 0
-  - Pending Stories: 0
-  - Ignored or skipped Stories: 0
-  - Untested Stories: 1 (100%">
-                        <div class="compromisedbar"
-                             style="width: 0px;"
-                             title="Test two:
-  - Passing Stories: 0 (0%
-  - Stories Failing: 0 (0%
-  - Stories Failing with errors: 0
-  - Compromised Stories: 0
-  - Pending Stories: 0
-  - Ignored or skipped Stories: 0
-  - Untested Stories: 1 (100%">
-                            <div class="errorbar"
-                                 style="width: 0px;"
-                                 title="Test two:
-  - Passing Stories: 0 (0%
-  - Stories Failing: 0 (0%
-  - Stories Failing with errors: 0
-  - Compromised Stories: 0
-  - Pending Stories: 0
-  - Ignored or skipped Stories: 0
-  - Untested Stories: 1 (100%">
-                                <div class="failingbar"
-                                     style="width: 0px;"
-                                     title="Test two:
-  - Passing Stories: 0 (0%
-  - Stories Failing: 0 (0%
-  - Stories Failing with errors: 0
-  - Compromised Stories: 0
-  - Pending Stories: 0
-  - Ignored or skipped Stories: 0
-  - Untested Stories: 1 (100%">
-                                    <div class="passingbar"
-                                         style="width: 0px;"
-                                         title="Test two:
-  - Passing Stories: 0 (0%
-  - Stories Failing: 0 (0%
-  - Stories Failing with errors: 0
-  - Compromised Stories: 0
-  - Pending Stories: 0
-  - Ignored or skipped Stories: 0
-  - Untested Stories: 1 (100%">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </td>
-    </tr>
-</table>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-
-                            </div>
-                        </div>
-<table>
-    <tr>
-        <td>
-            <div><h3>Acceptance Criteria</h3></div>
-            <div id="test_list_tests" class="table">
-                <div class="test-results">
-                    <table id="test-results-table">
-                        <thead>
-                        <tr>
-                            <th width="50" class="test-results-heading">&nbsp;</th>
-                            <th width="%" class="test-results-heading">Tests</th>
-                            <th width="70" class="test-results-heading">Steps</th>
-
-                            <th width="100" class="test-results-heading">Started</th>
-                            <th width="100" class="test-results-heading">Took<br>(secs)</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                                    
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
-                                    <div class="ellipsis">
-
-                                        <a href="ca88d0d6e70c534b5e5d952a862c43bd740b271079076acac0735734120c7c1c.html" class="ellipsis"
-                                           title="This test will provide an error code of 400 when user tries to access an invalid resource ">
-                                            This test will provide an error code of 400 when user tries to access an invalid resource
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="SUCCESS-text">1</td>
-
-
-                                <td class="SUCCESS-text" data-sort="2021-01-18 21:37:57">21:37:57</td>
-
-                                <td class="SUCCESS-text">15.72</td>
-                            </tr>
-
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                                    
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
-                                    <div class="ellipsis">
-
-                                        <a href="64366181c67b121203852ece5d6ed0ac4da29a5ae5d4ec745825a8f68488636b.html" class="ellipsis"
-                                           title="Provide a 405 status code when incorrect HTTP method is used to access a resource ">
-                                            Provide a 405 status code when incorrect HTTP method is used to access a resource
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="SUCCESS-text">1</td>
-
-
-                                <td class="SUCCESS-text" data-sort="2021-01-18 21:38:15">21:38:15</td>
-
-                                <td class="SUCCESS-text">0.8</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </td>
-    </tr>
-</table>
-</div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-</div>
-</div>
-<div id="bottomfooter">
-    <span class="version">Serenity BDD version 1.9.9</span>
-</div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="version">Serenity BDD version 2.0.67</span>
+                    </div>
+                </div>
+            </div>
 </body>
 </html>
